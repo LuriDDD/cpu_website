@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Эволюция процессоров</title>
+    <link rel="shortcut icon" href="minicpu.ico" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="vendor.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.css"
+    />
+  </head>
+  <body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <div class="asd">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Главная</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >8-битная эпоха<span class="sr-only">(current)</span></a
+              >
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+              <a class="dropdown-item" href="index.html#годы1940–1960-е">1940–1960-е годы</a>
+              <a class="dropdown-item" href="index.html#Intel4004">Intel 4004</a>
+              <a class="dropdown-item" href="index.html#Intel8008">Intel 8008</a>
+              <a class="dropdown-item" href="index.html#Intel8080">Intel 8080</a>
+              <a class="dropdown-item" href="index.html#ZilogZ80">Zilog Z80</a>
+              <a class="dropdown-item" href="index.html#ZXSpectrum">ZX Spectrum</a>
+              <a class="dropdown-item" href="index.html#Motorola6800">Motorola 6800</a>
+              <a class="dropdown-item" href="index.html#MOSTechnology6502">MOS Technology 6502</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >16-битная эпоха</a
+              >
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="16bit.html#Intel8086/8088">Intel 8086/8088 и архитектура x86</a>
+                <a class="dropdown-item" href="16bit.html#Intel80186">Intel 80186 и 80286</a>
+                <a class="dropdown-item" href="16bit.html#Motorola68k">Motorola 68k и компьютеры Apple</a>
+                <a class="dropdown-item" href="16bit.html#DECPDP-11">DEC PDP-11</a>
+                <a class="dropdown-item" href="16bit.html#WDCW65C816S">WDC W65C816S и Zilog Z8000</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                32-битная эпоха
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+                <a class="dropdown-item" href="32bit.html#Inteli386">Intel i386</a>
+                <a class="dropdown-item" href="32bit.html#Inteli486">Intel i486</a>
+                <a class="dropdown-item" href="32bit.html#Motorola68020"
+                  >Motorola 68020, 68030, 68040</a
+                >
+                <a class="dropdown-item" href="32bit.html#NECV60">NEC V60, V70, V80</a>
+                <a class="dropdown-item" href="32bit.html#DECVAX">DEC VAX</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Архитектура RISC
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+              <a class="dropdown-item" href="RISC.html#RISC">Создание RISC</a>
+              <a class="dropdown-item" href="RISC.html#MIPS">MIPS</a>
+              <a class="dropdown-item" href="RISC.html#SPARC">SPARC</a>
+              <a class="dropdown-item" href="RISC.html#ARM">ARM</a>
+              <a class="dropdown-item" href="RISC.html#PowerPC">PowerPC</a>
+              <a class="dropdown-item" href="RISC.html#DECAlpha">DEC Alpha</a>
+              <a class="dropdown-item" href="RISC.html#IntelP5">Intel P5</a>
+              <a class="dropdown-item" href="RISC.html#AMDK5">AMD K5</a>
+              <a class="dropdown-item" href="RISC.html#IntelP6">Intel P6</a>
+              <a class="dropdown-item" href="RISC.html#AMDK6">AMD K6</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Современность
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink"
+              >
+              <a class="dropdown-item" href="nowadays.html#AMDK7">AMD K7</a>
+              <a class="dropdown-item" href="nowadays.html#IntelNetBurst">Intel NetBurst</a>
+              <a class="dropdown-item" href="nowadays.html#AMDK8">AMD K8</a>
+              <a class="dropdown-item" href="nowadays.html#IntelCore">Intel Core</a>
+              <a class="dropdown-item" href="nowadays.html#AMDK10">AMD K10</a>
+              <a class="dropdown-item" href="nowadays.html#AMDZen">AMD Zen</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="main">
+            <a id="cpu" href="index.html">Эволюция процессоров</a>
+      </div>
+  </body>
+</html>

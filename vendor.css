@@ -1,0 +1,87 @@
+body {
+  padding: 15px;
+  font-family: Helvetica, sans-serif;
+  background: #dbdbdb;
+}
+#cpu {
+  font-size: 80px;
+  color: cornsilk;
+  text-decoration: none;
+  text-shadow: 0px 0px 5px black;
+}
+#cpu:hover {
+  transition: all 0.5s;
+  font-size: 83px;
+  color: cornsilk;
+  text-shadow: 0px 0px 10px black;
+}
+#exam {
+  color: black;
+  height: calc(100vh - 105px);
+  overflow-y: scroll;
+  border-radius: 3px;
+  background-color: #fff;
+}
+.asd {
+  margin-bottom: 15px;
+}
+#hp {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.list-group-item.active {
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+}
+.navbar {
+  border-radius: 3px;
+}
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.foto {
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
+}
+.gh {
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+figcaption {
+  text-align: center;
+}
+h4 {
+  font-weight: bold;
+  clear:right;
+  padding-top: 10px;
+}
+@media (min-width: 992px) {
+  .modal-lg {
+    max-width: 650px;
+  }
+  }
+#list {
+  height: calc(100vh - 105px);
+  overflow-y: scroll;
+}
+.main {
+  height: calc(100vh - 105px);
+  border-radius: 3px;
+  background: url(cpu.jpg);
+  background-size: cover;
+  text-align: center;
+  vertical-align: middle;
+
+}
+.main:before {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  content: "";
+}
